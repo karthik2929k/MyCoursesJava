@@ -17,6 +17,7 @@ import {
 } from "react-router-dom";
 import ContactMe from './components/Contactme';
 import AboutMe from './components/Aboutme';
+import Comments from './ccbppractice/Comments';
 
 function App() {
 
@@ -41,7 +42,9 @@ function App() {
                 <Route path='/add-course' element={<Addcourse/>} exact/>
                 <Route path='/view-course' element={<Allcourses/>} exact/>
                 <Route path='/aboutme' element={<AboutMe/>} exact/>
-                <Route path='/contactme' element={<ContactMe/>} exact/>             
+                <Route path='/contactme' element={<ContactMe/>} exact/> 
+                <Route path='/comments' element={<Comments/>} exact/>
+                            
           </Routes>        
         </Col>
       </Row>
