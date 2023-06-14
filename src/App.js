@@ -43,8 +43,8 @@ function App() {
                 <Route path='/view-course' element={<Allcourses/>} exact/>
                 <Route path='/aboutme' element={<AboutMe/>} exact/>
                 <Route path='/contactme' element={<ContactMe/>} exact/> 
-                <Route path='/comments' element={<Comments/>} exact/>
-                            
+                <Route path='/comments' element={<Comments/>} exact/>                          
+          
           </Routes>        
         </Col>
       </Row>

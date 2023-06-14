@@ -11,7 +11,8 @@ const Menus=()=>{
             <Link className="list-group-item list-group-item-action" tag="a" to="/view-course" action>View Courses</Link>
             <Link className="list-group-item list-group-item-action" tag="a" to="/aboutme" action>About</Link>
             <Link className="list-group-item list-group-item-action" tag="a" to="/contactme" action>Contact Us</Link>
-            <Link className="list-group-item list-group-item-action" tag="a" to="/comments" action>FeedBack</Link>
+            <Link className="list-group-item list-group-item-action" tag="a" to="/comments" action>FeedBack Messages</Link>
+        
         </ListGroup>
     );
 

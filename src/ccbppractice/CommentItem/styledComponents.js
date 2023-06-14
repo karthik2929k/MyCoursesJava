@@ -32,6 +32,8 @@ export const NameText = styled.p`
   margin: 0px;
 `
 
+
+
 export const CommentText = styled.p`
   color: red;
   font-family: 'Roboto';
